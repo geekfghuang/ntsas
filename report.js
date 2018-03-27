@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	// 全局js：上报用户信息，以及访问数据到打点服务器（用户ip在nginx中获取）
+	// 全局js：上报用户信息，以及访问数据到打点服务器dot-server（用户ip在nginx中获取）
 	$.get("http://localhost:8888/dig",
 	{
 		"time":gettime(),
